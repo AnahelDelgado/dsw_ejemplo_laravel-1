@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Subir Archivo</title>
-</head>
-<body>
+@extends('layouts.admin')
+@section('title', $viewData["title"])
+@section('content')
 
 <h2>Subir Archivo</h2>
 
@@ -17,5 +14,4 @@
     <button type="submit">Subir</button>
 </form>
 
-</body>
-</html>
+@endsection
