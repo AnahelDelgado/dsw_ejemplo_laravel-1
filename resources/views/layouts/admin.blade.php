@@ -21,6 +21,7 @@
       <ul class="nav flex-column">
         <li><a href="{{ route('admin.home.index') }}" class="nav-link text-white">- Página principal de la administración</a></li>
         <li><a href="{{ route('admin.product.index') }}" class="nav-link text-white">- Administración de productos</a></li>
+        <li><a href="{{ route('admin.upload.index') }}" class="nav-link text-white">- Subida de archivos</a></li>
         <li>
           <a href="{{ route('home.index') }}" class="mt-2 btn bg-primary text-white">Volver a la página principal</a>
         </li>
